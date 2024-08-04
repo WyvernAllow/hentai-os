@@ -1,0 +1,8 @@
+[package]
+name = "hentai-os"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+uefi = { version = "0.30.0", features = ["alloc", "global_allocator", "panic_handler"] }
+uefi-services = "0.25.0"
